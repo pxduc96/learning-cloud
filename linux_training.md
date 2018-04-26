@@ -1,5 +1,35 @@
 # Learning Linux
 
+## Work on the command line
+
+### 9. File-Viewing Commands: head, tail, less, cut, wc
+
+head
+- lệnh để xem các dòng từ trên xuống của file. mặc định sẽ hiện thị ra 10 dòng đầu của 1 file.
+- Một số option:
+	- `-n`: số dòng đầu trong file muốn hiện thị
+	- `-q`: không hiện thị tên file ở output
+	- `-v`: hiện thị tên file ở output
+	
+
+tail
+- Hiện thị các dòng cuối của file. Có thể theo dõi thông tin mới được ghi vào file theo thời gian thực.
+- Một số option:
+	- `-n`: số dòng muốn hiện thị
+	- `-q` và `-v` tương tự như head
+	- `-f`: theo dõi các thông tin mới được ghi vào theo thời gian thực.
+	
+
+less
+- Khi có output hiện thị trên màn hình, có thể output đấy có nhiều thông tin và hiện thị tràn ra ngoài màn hình. Như vậy chúng ta chỉ xem được các output cuối. Sử dụng `less` cho phép chúng ta xem lần lượt từ trên xuống nhằm có thể xem hết thông tin của output.
+- Ví dụ xem nội dung file, có thể sử dụng less để đọc nội dung từ trên xuống.
+
+
+cut
+- cut là 1 tiện ích nhỏ giúp chúng ta cắt, trích xuất nội dung của tập tin theo cột. Nó cũng có thể chỉ ra dấu phân cách phân biệt các cột. Trong thuật ngữ của cut, các cột được gọi là các trường (field).
+
+<đang update>
+
 ## Manage processes
 
 ### Processes
