@@ -33,7 +33,7 @@ $ grep -i "chuoi" file_name
 $ grep "regular_here" file
 ```
 
-- 5. Các cách tìm trên sẽ tìm tất cả các chuỗi con. Ví dụ tìm *no* thì *not, nothing` sẽ xuất hiện ở kết quả. Nếu bạn muốn tìm chính xác, sử dụng `-w`
+- 5. Các cách tìm trên sẽ tìm tất cả các chuỗi con. Ví dụ tìm *no* thì *not, nothing* sẽ xuất hiện ở kết quả. Nếu bạn muốn tìm chính xác, sử dụng `-w`
 
 ```sh
 $ grep -w "chuoi" file_name
