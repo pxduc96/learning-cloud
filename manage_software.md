@@ -5,11 +5,11 @@ Ví dụ sau đây nói về build `nodejs` từ source code
 ### Step 1: Getting the source code from github
 Giống như các dự án open-source khác, sources của Nodejs có thể được tìm thấy trên github: https://github.com/nodejs/node
 
-	![Imgur](https://i.imgur.com/46mbVvD.png)
+![Imgur](https://i.imgur.com/46mbVvD.png)
 	
 Ở trên github, chúng ta có thể tải về các phiên bản khác nhau của dự án. Lựa chọn các phiên bản khác nhau bằng cách chọn tags trong branch
 
-	![Imgur](https://i.imgur.com/XV0bYn2.png)
+	[Imgur](https://i.imgur.com/XV0bYn2.png)
 	
 Các lập trình viên tạo `branch` và `tags` để theo dõi các sự kiện quan trọng của dự án, ví dụ như khi bắt đầu làm việc với một tính năng mới hoặc khi đẩy một release.
 
