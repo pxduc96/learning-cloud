@@ -5,21 +5,21 @@ Ví dụ sau đây nói về build `nodejs` từ source code
 ### Step 1: Getting the source code from github
 Giống như các dự án open-source khác, sources của Nodejs có thể được tìm thấy trên github: https://github.com/nodejs/node
 
-	![Imgur](https://i.imgur.com/46mbVvD.png)
+![Imgur](https://i.imgur.com/46mbVvD.png)
 	
 Ở trên github, chúng ta có thể tải về các phiên bản khác nhau của dự án. Lựa chọn các phiên bản khác nhau bằng cách chọn tags trong branch
 
-	![Imgur](https://i.imgur.com/XV0bYn2.png)
+![Imgur](https://i.imgur.com/XV0bYn2.png)
 	
 Các lập trình viên tạo `branch` và `tags` để theo dõi các sự kiện quan trọng của dự án, ví dụ như khi bắt đầu làm việc với một tính năng mới hoặc khi đẩy một release.
 
 Sau khi chọn tag
 
-	![Imgur](https://i.imgur.com/WUUswUp.png)
+![Imgur](https://i.imgur.com/WUUswUp.png)
 	
 Bây giờ có thể tải file zip hoặc sử git để clone về máy
 
-	![Imgur](https://i.imgur.com/da9zsRp.png)
+![Imgur](https://i.imgur.com/da9zsRp.png)
 	
 ### Step 2: Understanding the Build System of the program
 Khi build một phần mềm từ source code, chúng ta thường nói về `compiling the sources` nhưng biên dịch chỉ là một pha được yêu cầu phải thực hiện. Một build system là một bộ các công cụ và các bước thực hành được sử dụng để tự động hóa và chỉ dẫn các nhiệm vụ khác nhau để xây dựng nên một phần mềm hoàn chỉnh, thông qua một vài lệnh.
