@@ -43,9 +43,9 @@ Mỗi chương trình, cho dù đó là một lệnh, ứng dụng hoặc tập 
 - Environment: Mỗi process giữ một danh sách các biến và giá trị của biến. Đây là danh sách được biến như là `environment` của process, và các biến này được gọi là `environment variables`.
 - Current working directory: Thư mục mặc định được liên kết với mỗi process. Process này sẽ đọc và ghi các file trong thư mục này trừ khi chúng được chỉ định ở nơi khác trong filesystem.
 
-## Process Monitoring
+## 1. Process Monitoring
 
-Monitoring các process sử dụng các công cụ: ps, pstree, top
+Monitoring các process sử dụng các công cụ: ps, top, htop
 
 #### ps
 
@@ -99,4 +99,119 @@ root       2920   2088  0 17:36 pts/0    00:00:00 ps -f
   2907 tty3     S+     0:00 -bash
   3004 pts/1    R+     0:00 ps -x
 ```
+
+#### top
+Lệnh top dùng để xem những gì đang xảy ra trong hệ thống theo "real time". Top giúp chúng ta monitor hệ thống, cho biết tiến trình nào đang hoạt động và sử dụng tài nguyên. Xem một số thông tin của top.
+
+Sử dụng command
+
+```sh
+$ top
+```
+
+- 1. dòng đầu
+
+
+### 2. Foreground and Background Processes
+
+- 1. Foreground processes
+
+Foreground processes là các command hoặc các task được chạy trực tiếp và chờ cho đến khi nó hoàn. Ví dụ trong shell, khi bạn nhập lệnh `ls` để liệt kê các file và thư mục có trong thư mục hiện tại. Bạn phải chờ ls được hoàn thành rồi mới có thể thực hiện được các command tiếp theo.
+
+- 2. Background processes
+
+Không giống với foreground, shell không cần phải chờ một background process kết thúc để chạy command khác. Ta có thể chạy nhiều background processes.
+
+Để chạy một background process, chỉ cần thêm một space và dấu & sau lệnh
+
+```sh
+$ command &
+```
+
+khi thực hiện lệnh ở background, terminal có thể nhận được các lệnh khác. Process chạy ở background có độ ưu tiên thấp hơn foreground.
+
+
+### 3. Kill process
+Có process nào đó làm treo hệ thống, hoặc sử dụng quá nhiều tài nguyên và ta có nhu cầu kết thúc process đó.
+
+Để kết thúc process, ta cần biết tên hoặc id của process. Sử dụng ps hoặc top để xem id của process. Sau đó dùng `kill` để kết thúc.
+
+```sh
+$ kill id_process
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

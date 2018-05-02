@@ -88,7 +88,7 @@ $ grep -n "chuoi" file_name
 ```
 
 
-#### 2. sed
+### 2. sed
 sed là stream editor. sed được dùng để chỉnh sửa nội dung của file.
 Kết quả sẽ được hiện thì lên màn hình. Nếu chuyển hướng kết quả này thì nó sẽ không được hiện thì lên màn hình.
 
@@ -218,6 +218,14 @@ $ sed -n '/John/p' songs.txt
 ```
 
 - 7. Có thể sử dụng regular thay vì nhập một chuỗi cụ thể
+
+
+### 3. awk
+Awk thường được sử dụng cho việc tìm kiếm và xử lý text
+
+Một số ví dụ về awk
+
+- 1. 
 
 
 
